@@ -13,5 +13,6 @@ const assertEqual = require('./assertEqual');
    return tailOfOne;
  }
 
+ module.exports = tail;
  
 
