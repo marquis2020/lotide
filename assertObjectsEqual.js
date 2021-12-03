@@ -31,3 +31,13 @@ const assertObjectsEqual = function(object1, object2) {
  const cd = { c: "1", d: "2" };
  const dc = { d: "2", c: "1" };
  assertObjectsEqual(cd , dc );
+
+ var myObjected = {
+  'key-1': 42,
+  keyB: 'value B',
+  'keyC': [1, 2, 3]
+  };
+
+  console.log(myObjected)
+
+  module.exports = assertObjectsEqual;

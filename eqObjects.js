@@ -13,7 +13,7 @@ function eqArrays(arr1, arr2) {
     return false;
   }
   for (let i = 0, j = 0; i < arr1.length; j++, i++) {
-    // element
+    // element check
     if (arr1[i] === arr2[j]) {
       continue;
     } else {
@@ -42,13 +42,15 @@ const eqObjects = function(object1, object2) {
   }
   return true;
 };
-
-
-
-
 const cd = { c: "1", d: ["2", 3] };
 const dc = { d: ["2", 3], c: "1" };
 assertEqual(eqObjects(cd, dc), true); // => true
 
 const cd2 = { c: "1", d: ["2", 3, 4] };
 assertEqual(eqObjects(cd, cd2), false); // => false
+
+
+
+
+
+module.exports = eqObjects;
