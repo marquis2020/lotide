@@ -17,22 +17,50 @@ const findKey = require('./findKey')
 const findKeyByValue = require('./findKeyByValue')
 
 
-module.exports = {
-  head: head,
-  tail: tail,
-  middle: middle,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  letterPositions: letterPositions,
-  map: map,
-  takeUntil: takeUntil,
-  without: without,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
 
+// e6 shorthand property values
+module.exports = {
+  head,
+  tail,
+  middle,
+  eqArrays,
+  assertEqual,
+  assertArraysEqual,
+  assertObjectsEqual,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  countLetters,
+  countOnly,
+  letterPositions,
+  map,
+  takeUntil,
+  without
 };
+
+
+
+
+
+
+
+
+// module.exports = {
+//   head: head,
+//   tail: tail,
+//   middle: middle,
+//   assertEqual: assertEqual,
+//   assertArraysEqual: assertArraysEqual,
+//   assertObjectsEqual: assertObjectsEqual,
+//   eqArrays: eqArrays,
+//   eqObjects: eqObjects,
+//   countLetters: countLetters,
+//   countOnly: countOnly,
+//   letterPositions: letterPositions,
+//   map: map,
+//   takeUntil: takeUntil,
+//   without: without,
+//   findKey: findKey,
+//   findKeyByValue: findKeyByValue,
+
+// };
