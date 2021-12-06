@@ -28,10 +28,6 @@ let newArray = arr1;
 
 let itemBeGone = arr2;
 
-for (let element of newArray){
-
-  
-}
 for (let item1 of itemBeGone) {
 
   newArray = newArray.filter(function (item1) {

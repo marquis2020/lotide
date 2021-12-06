@@ -1,7 +1,7 @@
 {
-  "name": "highttide",
+  "name": "@marquis2021/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "marquis's lotide assignment",
   "main": "assertArraysEqual.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/marquis2020/lotide.git"
   },
-  "author": "",
+  "author": "Marquis Welch-Fraser",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/marquis2020/lotide/issues"
